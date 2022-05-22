@@ -1,2 +1,2 @@
 # Coding-Challenges
-Challenges from LeetCode
+Challenges from [LeetCode](https://leetcode.com/problemset/all/)
