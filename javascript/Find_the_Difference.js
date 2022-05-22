@@ -5,11 +5,10 @@ Return the letter that was added to 't'.
 */
 
 var findTheDifference = function(s, t) {
-    const sa = s.split("").sort();
-    const ta = t.split("").sort();
-    for(let i = 0; i <= t.length; i++) {
-        if(sa[i] != ta[i]) {
-            return ta[i];   
-        }
-    }
+    const sArray = s.split("").sort();
+    const tArray = t.split("").sort();
+    
+    for(let i = 0; i <= t.length; i++)
+        if(sArray[i] !== tArray[i])
+            return tArray[i];
 };
