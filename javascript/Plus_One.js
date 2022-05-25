@@ -5,8 +5,8 @@ Increment the large integer by one and return the resulting array of digits.
 
 var plusOne = function(digits) {
     let wholeNum = "";
-    for(let i = 0; i < digits.length; i++)
-        wholeNum += digits[i];
+    for(let i of digits)
+        wholeNum += i;
     
     let wholeNumInt = BigInt(wholeNum);
     wholeNumInt++;
